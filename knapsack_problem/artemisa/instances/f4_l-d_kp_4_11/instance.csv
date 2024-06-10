@@ -1,0 +1,11 @@
+PROCESS_ID; INSTANCE_ID; ATTRIBUTE_ID; VALUE
+KnapsackProcess;Knapsack1;Items;4
+KnapsackProcess;Knapsack1;Capacity;11.0
+ItemProcess;Item1;Value;6.0
+ItemProcess;Item1;Weight;2.0
+ItemProcess;Item2;Value;10.0
+ItemProcess;Item2;Weight;4.0
+ItemProcess;Item3;Value;12.0
+ItemProcess;Item3;Weight;6.0
+ItemProcess;Item4;Value;13.0
+ItemProcess;Item4;Weight;7.0

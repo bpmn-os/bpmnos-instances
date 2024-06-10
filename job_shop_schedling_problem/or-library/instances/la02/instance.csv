@@ -1,0 +1,26 @@
+PROCESS_ID; INSTANCE_ID; ATTRIBUTE_ID; VALUE
+MachineProcess;Machine1;Jobs;10
+MachineProcess;Machine2;Jobs;10
+MachineProcess;Machine3;Jobs;10
+MachineProcess;Machine4;Jobs;10
+MachineProcess;Machine5;Jobs;10
+OrderProcess;Order1;Machines;["Machine1","Machine4","Machine2","Machine5","Machine3"]
+OrderProcess;Order1;Durations;[20.0,87.0,31.0,76.0,17.0]
+OrderProcess;Order2;Machines;["Machine5","Machine3","Machine1","Machine2","Machine4"]
+OrderProcess;Order2;Durations;[25.0,32.0,24.0,18.0,81.0]
+OrderProcess;Order3;Machines;["Machine2","Machine3","Machine5","Machine1","Machine4"]
+OrderProcess;Order3;Durations;[72.0,23.0,28.0,58.0,99.0]
+OrderProcess;Order4;Machines;["Machine3","Machine2","Machine5","Machine1","Machine4"]
+OrderProcess;Order4;Durations;[86.0,76.0,97.0,45.0,90.0]
+OrderProcess;Order5;Machines;["Machine5","Machine1","Machine4","Machine3","Machine2"]
+OrderProcess;Order5;Durations;[27.0,42.0,48.0,17.0,46.0]
+OrderProcess;Order6;Machines;["Machine2","Machine1","Machine5","Machine4","Machine3"]
+OrderProcess;Order6;Durations;[67.0,98.0,48.0,27.0,62.0]
+OrderProcess;Order7;Machines;["Machine5","Machine2","Machine4","Machine1","Machine3"]
+OrderProcess;Order7;Durations;[28.0,12.0,19.0,80.0,50.0]
+OrderProcess;Order8;Machines;["Machine2","Machine1","Machine3","Machine4","Machine5"]
+OrderProcess;Order8;Durations;[63.0,94.0,98.0,50.0,80.0]
+OrderProcess;Order9;Machines;["Machine5","Machine1","Machine3","Machine2","Machine4"]
+OrderProcess;Order9;Durations;[14.0,75.0,50.0,41.0,55.0]
+OrderProcess;Order10;Machines;["Machine5","Machine3","Machine2","Machine4","Machine1"]
+OrderProcess;Order10;Durations;[72.0,18.0,37.0,79.0,61.0]

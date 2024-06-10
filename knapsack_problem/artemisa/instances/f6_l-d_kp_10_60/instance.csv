@@ -1,0 +1,23 @@
+PROCESS_ID; INSTANCE_ID; ATTRIBUTE_ID; VALUE
+KnapsackProcess;Knapsack1;Items;10
+KnapsackProcess;Knapsack1;Capacity;60.0
+ItemProcess;Item1;Value;20.0
+ItemProcess;Item1;Weight;30.0
+ItemProcess;Item2;Value;18.0
+ItemProcess;Item2;Weight;25.0
+ItemProcess;Item3;Value;17.0
+ItemProcess;Item3;Weight;20.0
+ItemProcess;Item4;Value;15.0
+ItemProcess;Item4;Weight;18.0
+ItemProcess;Item5;Value;15.0
+ItemProcess;Item5;Weight;17.0
+ItemProcess;Item6;Value;10.0
+ItemProcess;Item6;Weight;11.0
+ItemProcess;Item7;Value;5.0
+ItemProcess;Item7;Weight;5.0
+ItemProcess;Item8;Value;3.0
+ItemProcess;Item8;Weight;2.0
+ItemProcess;Item9;Value;1.0
+ItemProcess;Item9;Weight;1.0
+ItemProcess;Item10;Value;1.0
+ItemProcess;Item10;Weight;1.0
