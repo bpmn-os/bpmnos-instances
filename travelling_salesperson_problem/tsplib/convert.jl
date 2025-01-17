@@ -57,7 +57,7 @@ open(name * "/distances.csv", "w") do output
   for i in 1:n
     for j in 1:n
       if i != j
-        println(output, "Location$(i),Location$(j),$(distances[(i-1)*n+j])")
+        println(output, "\"Location$(i)\",\"Location$(j)\",$(distances[(i-1)*n+j])")
       end
     end 
   end
@@ -66,7 +66,7 @@ end
 # Create instance file
 open(name * "/instance.csv", "w") do output
   println(output, "PROCESS_ID; INSTANCE_ID; ATTRIBUTE_ID; VALUE")
-  println(output, "TravellingSalesperson_Process;Instance1;Origin;Location1")
+  println(output, "TravellingSalesperson_Process;Instance1;Origin;\"Location1\"")
   print(output, "TravellingSalesperson_Process;Instance1;Locations;[")
   for i in 2:n
     if i > 2

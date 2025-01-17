@@ -8,6 +8,23 @@ For each optimisation problem, a BPMNOS model and one or more folders containing
 - a script to convert the original instances into BPMNOS data format, and
 - an `instances` folder containing the instance data in BPMNOS data format.
 
+## Build instances
+
+A single instance can be build by
+```
+cd <outputdir>
+julia <scriptname> <source>
+```
+
+All instances of a source collection can be build by
+```
+cd <outputdir>
+for input in <sourcepattern>; do
+  julia <scriptname> $input
+done
+```
+
+
 ## License
 
 - Content in each `source` folder is subject to the license conditions of the original source.

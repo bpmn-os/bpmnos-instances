@@ -38,7 +38,7 @@ if startswith(name, "assignp")
   open(name * "/costs.csv", "w") do output
     println(output, "ClientId,ServerId,Costs")
     for value in costs
-      println(output, "Client$(value[1]),Server$(value[2]),$(value[3])")
+      println(output, "\"Client$(value[1])\",\"Server$(value[2])\",$(value[3])")
     end
   end
 else
@@ -58,7 +58,7 @@ else
     println(output, "ClientId,ServerId,Costs")
     for i in 1:n
       for j in 1:n
-        println(output, "Client$(i),Server$(j),$(costs[i][j])")
+        println(output, "\"Client$(i)\",\"Server$(j)\",$(costs[i][j])")
       end 
     end
   end
